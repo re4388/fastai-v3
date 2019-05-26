@@ -1,9 +1,6 @@
-# Starter for deploying [fast.ai](https://www.fast.ai) models on [Render](https://render.com)
+# start code to deply [fast.ai](https://www.fast.ai) course material into [Render](https://render.com)
 
-This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
+## what I had changed for the repo?
 
-The sample app described here is up at https://fastai-v3.onrender.com. Test it out with bear images!
-
-The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
-
-Use this fast.ai forum thread for questions and community support: https://forums.fast.ai/t/deployment-platform-render/33953
+- change requirement.txt => since there's is dependence conflict
+- change the server.py, to use my own train model
